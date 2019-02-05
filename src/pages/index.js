@@ -19,7 +19,6 @@ export default class IndexPage extends React.Component {
               .map(({ node: post }) => (
                 <div
                   className="content"
-                  style={{ border: '1px solid #333', padding: '2em 4em' }}
                   key={post.id}
                 >
                   <p>
@@ -37,6 +36,7 @@ export default class IndexPage extends React.Component {
                       Keep Reading →
                     </Link>
                   </p>
+                  <hr />
                 </div>
               ))}
           </div>
